@@ -8,7 +8,23 @@ body {
     margin: 0;
     padding-top: 90px;
     padding-bottom: 3000px;
-    padding-left: 140px;
+    padding-left: 130px;
     padding-right: 10px;
     background-color: rgb(240, 240, 240);
+}
+
+
+@media ((min-width: 800px)){
+    body {
+        padding-left: 280px;
+    }
+    
+}
+
+
+@media ((min-width: 1200px)){
+    body {
+        padding-left: 270px;
+    }
+    
 }

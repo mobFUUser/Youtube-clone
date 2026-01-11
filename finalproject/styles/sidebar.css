@@ -1,13 +1,12 @@
 .sidebar {
     background-color: white;
     position: fixed;
-    top: 70px;
+    top: 60px;
     left: 0px;
     bottom: 0px;
     width: 120px;
     padding-top: 10px;
     padding-bottom: 150px;
-    
     z-index: 100;
 }
     
@@ -27,14 +26,35 @@
 .sidebar-icons {
     display: flex;
     width: 120px;
-    height: 100px;
+    height: 90px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     flex: 1;
     align-items: center;
     cursor: pointer;
+   
 }
 
 .sidebar-icons:hover {
     background-color: lightgrey;
+}
+
+.sidebar-description {
+   
+}
+
+@media (min-width: 800px){
+    .sidebar {
+    width: 250px;
+    }
+    .sidebar-icons {
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        padding-left: 20px;
+        width: 230px;
+    }
+
 }
